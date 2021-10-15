@@ -1,0 +1,23 @@
+.app-header{
+  border-bottom: 1px solid gainsboro ;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-header-logo{
+  height: 44px;
+}
+.app-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rose-pic img{
+  display: block;
+  width: 100%;
+}
