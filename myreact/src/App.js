@@ -3,21 +3,25 @@ import './App.css';
 
 function App() {
   const textInput = <input type="text" />
-  const okButton = <button>
-  ปุ่มกด
-</button>
+  const okButton = <button>ปุ่มกด</button>
   return (
     <div className="app">
       <headers className="app-header">
-        <h4>Title</h4> 
+        <img className="app-header-logo"src="/images/test.png"/>
       </headers>
       <div className="app-grid"> 
-          <div>123456 123456 123456 123456 123456 123456
-          123456 123456 123456 123456 123456 123456 123456 123456 123456 123456 123456</div>
-          <div>123456 123456 123456 123456 123456 123456
-          123456 123456 123456 123456 123456 123456 123456 123456 123456 123456 123456</div>
-          <div>123456 123456 123456 123456 123456 123456
-          123456 123456 123456 123456 123456 123456 123456 123456 123456 123456 123456</div>        
+          <div className="rose-pic">
+            <img src="/images/5.jpg"/>
+          </div>
+          <div className="rose-pic">
+            <img src="/images/1.jpg"/>
+          </div>
+          <div className="rose-pic">
+            <img src="/images/3.jpg"/>
+          </div>
+          <div className="rose-pic">
+            <img src="/images/2.jpg"/>
+          </div>
       </div>
     </div>
   );
