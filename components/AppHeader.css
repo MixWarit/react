@@ -1,0 +1,10 @@
+.app-header{
+  border-bottom: 1px solid gainsboro ;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-header-logo{
+  height: 44px;
+}

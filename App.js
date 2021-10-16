@@ -1,27 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import AppHeader from './components/AppHeader';
+import PicPost from './components/PicPost';
+import RosePic from './components/RosePic';
 function App() {
-  const textInput = <input type="text" />
-  const okButton = <button>ปุ่มกด</button>
   return (
     <div className="app">
-      <headers className="app-header">
-        <img className="app-header-logo"src="/images/test.png"/>
-      </headers>
+      <AppHeader />
       <div className="app-grid"> 
-          <div className="rose-pic">
-            <img src="/images/5.jpg"/>
-          </div>
-          <div className="rose-pic">
-            <img src="/images/1.jpg"/>
-          </div>
-          <div className="rose-pic">
-            <img src="/images/3.jpg"/>
-          </div>
-          <div className="rose-pic">
-            <img src="/images/2.jpg"/>
-          </div>
+        <RosePic />
+        <RosePic />
+        <RosePic />
+        <RosePic />
       </div>
     </div>
   );
